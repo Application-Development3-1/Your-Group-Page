@@ -49,7 +49,7 @@
 .member_box{
   width: 400px;
   background-color: white;
-  height: 500px;
+  height: 520px;
   border-radius: 20px;
   padding-right: 40px;
 }
@@ -64,13 +64,36 @@
 }
 
 #member_post{
-  height: 525px;
+  height: 550px;
   width: 700px;
   margin-top: 40px;
   margin-left: 40px;
   border-radius: 20px;
-  background-color: white;
+  background-color: #0B5793;
 }
+
+#post_name{
+  font-weight:bold; 
+  color: #fff; 
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+#date_text{
+  font-weight:bold; 
+  color: #fff; 
+  margin-left: 80px;
+  margin-top: 0px;
+  font-size: 10px;
+}
+
+#post_text{
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 14px;
+}
+
 
 #add_post{
   background-color: #F6F6EF;
@@ -86,10 +109,19 @@
   background-color:#F6F6EF ;
   height: 415px;
   width: 645px;
-  margin-top: 80px;
+  margin-top: 10px;
   margin-left: 15px;
   border-radius: 20px;
   
+}
+
+#image_post{
+  background-image: url(nj.jpg);
+  height: 415px;
+  width: 645px;
+
+
+  border-radius: 20px;
 }
 
 
